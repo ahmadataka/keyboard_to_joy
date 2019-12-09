@@ -33,8 +33,8 @@ class keyboard_joy(object):
     #self.key_joy.header.frame_id = 0
     self.key_joy.axes = []
     self.key_joy.buttons = []
-    self.axes = [0, 0, 0, 0, 0, 0]
-    self.buttons = [0, 0, 0, 0]
+    self.axes = [0, 0, 0, 0, 0, 0, 0]
+    self.buttons = [0, 0, 0, 0, 0, 0, 0, 0, 0]
 
     if(self.key_read.data == 'a'):
       self.axes[0] = -1
@@ -72,6 +72,12 @@ class keyboard_joy(object):
       self.axes[5] = -1
     else:
       self.axes[5] = 0
+    if(self.key_read.data == 'c'):
+      self.axes[6] = 1
+    elif(self.key_read.data == 'v'):
+      self.axes[6] = -1
+    else:
+      self.axes[6] = 0
     if(self.key_read.data == 'u'):
       self.buttons[0] = 1
     elif(self.key_read.data == 'o'):
@@ -80,10 +86,12 @@ class keyboard_joy(object):
       self.buttons[1] = 1
     elif(self.key_read.data == 'm'):
       self.buttons[3] = 1
+    elif(self.key_read.data == 'b'):
+      self.buttons[8] = 1
 
-    for i in range(0, 6):
+    for i in range(0, 7):
       self.key_joy.axes.append(self.axes[i])
-    for i in range(0, 4):
+    for i in range(0, 9):
       self.key_joy.buttons.append(self.buttons[i])
     self.flag = 0
     self.key_pub.publish(self.key_joy)
