@@ -1,0 +1,40 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/ahmadataka/catkin_ws/devel/include/**",
+        "/opt/ros/kinetic/include/**",
+        "/home/ahmadataka/catkin_ws/src/srv_tools/bag_tools/include/**",
+        "/home/ahmadataka/catkin_ws/src/battery_state_interface/include/**",
+        "/home/ahmadataka/catkin_ws/src/baxter_simulator/baxter_sim_controllers/include/**",
+        "/home/ahmadataka/catkin_ws/src/baxter_simulator/baxter_sim_hardware/include/**",
+        "/home/ahmadataka/catkin_ws/src/baxter_simulator/baxter_sim_io/include/**",
+        "/home/ahmadataka/catkin_ws/src/baxter_simulator/baxter_sim_kinematics/include/**",
+        "/home/ahmadataka/catkin_ws/src/dynamic_joint_limits_interface/include/**",
+        "/home/ahmadataka/catkin_ws/src/epos_controller/include/**",
+        "/home/ahmadataka/catkin_ws/src/eposx_hardware/eposx_hardware/include/**",
+        "/home/ahmadataka/catkin_ws/src/eposx_hardware/eposx_library/include/**",
+        "/home/ahmadataka/catkin_ws/src/gazebo_tutorial_richer/include/**",
+        "/home/ahmadataka/catkin_ws/src/inflatable_arm/include/**",
+        "/home/ahmadataka/catkin_ws/src/kcl4x3/Learning/kcl_learning/include/**",
+        "/home/ahmadataka/catkin_ws/src/kcl4x3/Stiffness_Adjustment/kcl_stiffness/include/**",
+        "/home/ahmadataka/catkin_ws/src/keyboard_to_joy/include/**",
+        "/home/ahmadataka/catkin_ws/src/iai_kinect2/kinect2_bridge/include/**",
+        "/home/ahmadataka/catkin_ws/src/iai_kinect2/kinect2_calibration/include/**",
+        "/home/ahmadataka/catkin_ws/src/iai_kinect2/kinect2_registration/include/**",
+        "/home/ahmadataka/catkin_ws/src/octomap_ros/include/**",
+        "/home/ahmadataka/catkin_ws/src/octomap_rviz_plugins/include/**",
+        "/home/ahmadataka/catkin_ws/src/octomap_mapping/octomap_server/include/**",
+        "/home/ahmadataka/catkin_ws/src/quadrotor_nav/include/**",
+        "/home/ahmadataka/catkin_ws/src/turtlebot_data_collect/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}
